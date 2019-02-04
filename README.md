@@ -1,6 +1,14 @@
 #GraphQL, Apollo로 웹앱 만들기
 
+* **본 강의는 노마드코더의 강의를 진행하면서 github에 올려놓은 소스입니다.**
+https://academy.nomadcoders.co/courses/enrolled/364948
+
 * 시작! 2019.2.4
+* 종료! 2019.2.4
+
+* 결과 보고
+- react에서 apollo를 사용하여 graphql을 이용하는 방법은 아주 편했다. 하지만 결과적으로 봤을 때, styled-component사용에 있어서는 너무 컴포넌트 소스가 어지러워지는거같다. 그리고 react를 할때 router는 매우 중요하므로 좀 더 익숙해져야하겠다.
+- 그래도 이 강의를 통해 전반적인 graphql을 사용하는 방법은 익혀졌다고 생각이 든다. 사이드프로젝트에 얼른 적용해봐야겠다.
 
 ### 1 Setup and project outline
 * 필요한 모듈을 깔았다.
@@ -50,3 +58,7 @@
 ### 7 Creating a Query with variables
 * detail query를 만들고 Home 화면에서 영화를 클릭했을 때 해당 영화의 id를 query로 전달하여 detail 정보를 가져왔다.
     * graphql에서 변수를 전달할때는 특수한 문법이 있다. gql 문법 확인(해볼려고 했지만 딱히 문서가 없네..) -> Query 컴포넌트에 variables이라는 props로 변수를 전달하면 된다. 변수의 이름은 query에 정의된 ```$변수이름```을 ```$를 뺀 나머지 변수이름만``` 형태로 전달하면 된다.
+
+### 8 Conclusion
+* 결론. 아주 편하게 개발을 할 수 있다. react-apollo의 10%정도만 사용하였다고 한다. 재밌네 ㅎㅎ
+
