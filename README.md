@@ -44,4 +44,5 @@
         * 전달받은 props를 이용해 Movie카드를 만들었다.
         * prop-types를 이용하여 타입을 고정시킴
         * 아직 잘 모름(https://reactjs.org/docs/typechecking-with-proptypes.html)
-    
+    * 여기서 Route에 대한 내용이 좀 나오는데, 흠..Detail 자체가 라우터 이므로 withRouter은 안써도 상관없다. 하지만 Detail.js에서 선언한 const 변수의 매개변수로 match가 들어오는건 왜그런지 아직 이해가 잘 안된다.
+    * 여기서 match arguments에 들어오는 params 값은 곧 movie를 가져올 쿼리의 id 값으로 query에 전달될 것이다.
