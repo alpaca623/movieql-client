@@ -21,3 +21,11 @@
     * App.js에서는 react-router-dom으로 페이지 세팅을 진행함
         * react-router-dom은 예전에 강의 들었는데.. 이제 제대로 써봄..
         * 나중에 읽어봐야 할 문서(https://velopert.com/3417)
+
+### 4 Getting data from the GraphQL API part One
+* graphql서버와 연동하기 시작함
+* react-apollo에서 Query 컴포넌트를 가져와서 Home컴포넌트에서 사용함.
+    * 이로서 Queries.js에서 정의한 query를 이용해 데이터를 받아올 수 있다.
+* Home.js에서는 gql이라는 graphql-tag를 사용하였다.
+    * 이건.. query를 어떻게 해주는거같은데(https://github.com/apollographql/graphql-tag)를 참고하자.
+    * graphql queries를 파싱해주기 위한 유용한 유틸.
