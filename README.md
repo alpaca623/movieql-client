@@ -46,3 +46,7 @@
         * 아직 잘 모름(https://reactjs.org/docs/typechecking-with-proptypes.html)
     * 여기서 Route에 대한 내용이 좀 나오는데, 흠..Detail 자체가 라우터 이므로 withRouter은 안써도 상관없다. 하지만 Detail.js에서 선언한 const 변수의 매개변수로 match가 들어오는건 왜그런지 아직 이해가 잘 안된다.
     * 여기서 match arguments에 들어오는 params 값은 곧 movie를 가져올 쿼리의 id 값으로 query에 전달될 것이다.
+
+### 7 Creating a Query with variables
+* detail query를 만들고 Home 화면에서 영화를 클릭했을 때 해당 영화의 id를 query로 전달하여 detail 정보를 가져왔다.
+    * graphql에서 변수를 전달할때는 특수한 문법이 있다. gql 문법 확인(해볼려고 했지만 딱히 문서가 없네..) -> Query 컴포넌트에 variables이라는 props로 변수를 전달하면 된다. 변수의 이름은 query에 정의된 ```$변수이름```을 ```$를 뺀 나머지 변수이름만``` 형태로 전달하면 된다.
