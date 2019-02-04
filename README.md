@@ -12,3 +12,12 @@
     1. css, logo 등을 다 삭제함
     1. ```apollo-boost```를 이용해 api서버와 연결하였다.
     1. react에서 ```apollo provider```를 이용하여 api서버와 연결하여 react에서 데이터를 받을 수 있도록 연동하였다.
+    * chorme에서 apollo관련 추가 tool을 설치하였다.(https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm)
+    * 문제는 local으로 실행을 하면 서버가 연동이 안된다..아직 문제는 못찾았다.(진도나가기 바쁘다는 핑계~)
+
+### 3 Setting up React Router
+* 여기까지가 세팅이닷 - 제목에서 보듯이..
+    * 첫번째는 페이지를 만들어줬다.(Home.js, Detail.js)
+    * App.js에서는 react-router-dom으로 페이지 세팅을 진행함
+        * react-router-dom은 예전에 강의 들었는데.. 이제 제대로 써봄..
+        * 나중에 읽어봐야 할 문서(https://velopert.com/3417)
