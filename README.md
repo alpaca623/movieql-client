@@ -34,3 +34,14 @@
 * api 서버(grqphql) 연동을 해봄
 * Query를 사용하는 방법을 아주 쉽게 해놨다. stateless방식이고, prop 같은 것들을 다 해줄 수 있다고 한다.. 아직 props, state등을 제대로 써본적이 없어서 편한건 알겠는데 와닿지는 않는다.
 * 아주 쉽긴 하다. loading, error부분을 처리해주는방식이 아주 마음에 든다.
+
+### 6 Details Route with params
+* 디자인을 입히고 route시킨 id 값들을 Detail view에 전달할 준비를 함
+    * **Home**
+        * Home 화면에 style를 입혔다.(Styled-components : https://www.styled-components.com/)
+        * Movie 컴포넌트에 props를 전달함
+    * **Movie** component를 추가함
+        * 전달받은 props를 이용해 Movie카드를 만들었다.
+        * prop-types를 이용하여 타입을 고정시킴
+        * 아직 잘 모름(https://reactjs.org/docs/typechecking-with-proptypes.html)
+    
